@@ -156,6 +156,7 @@ Pipe.prototype._rendezvous = function() {
  * 如果没有发送方等待其发送的数据被接收，接收方将
  * 暂停，直到另一个任务调用 "yield pipe.put(data)"，这将触发
  * 一个会合。
+ * 7.马成功
  */
 
 /**
